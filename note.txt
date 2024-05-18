@@ -1,0 +1,17 @@
+Activating models
+    Whenever we create or modify an existing model we need to update Django in a
+    two-step process:
+        1. First, create a migrations file with "makemigrations" command. It creates a
+           reference of any changes to the database models
+        2. Second, build the actual database with the "migrate" command which executes the instructions
+           in our migrations file.
+DjangoAdmin
+    username = benjaminaboagye
+    password = ben56789
+    email = bengye98@gmail.com
+
+URL Pattern
+    The app URL pattern has three parts:
+        1. a python regular expression.
+        2. a reference to the view.
+        3. optional named URL pattern.
